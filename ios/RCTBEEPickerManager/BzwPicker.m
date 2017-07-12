@@ -615,8 +615,7 @@
         [dic setValue:@"confirm" forKey:@"type"];
         NSMutableArray *arry=[[NSMutableArray alloc]init];
         [dic setValue:[self getselectIndexArry] forKey:@"selectedIndex"];
-        [dic setValue:arry forKey:@"selectedIndex"];
-        
+
         self.bolock(dic);
         
     }else{
